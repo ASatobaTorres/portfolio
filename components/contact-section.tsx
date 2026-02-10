@@ -58,7 +58,7 @@ export default function ContactSection() {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/Andrés Satoba - CV - Backend Developer.pdf" download>
+            <a href="/Andres Satoba Fullstack CV.pdf" download>
               <Download className="w-4 h-4 mr-2" />
               Descargar CV
             </a>

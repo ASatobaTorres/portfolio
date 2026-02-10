@@ -15,7 +15,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
+    <section id="HeroSection" className="relative min-h-screen flex items-center justify-center px-4 py-20">
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}
