@@ -13,7 +13,7 @@ export default function ProjectsCarousel() {
       title: "FixPoint",
       description:
         "Plataforma de reservas y gestión de profesionales",
-      image: "/modern-ecommerce-dashboard.png",
+      image: "/FixPoint.png",
       technologies: [
 "Next.js (React, App Router)",
 "TypeScript",
@@ -29,15 +29,15 @@ export default function ProjectsCarousel() {
     {
       title: "Proyecto E-commerce",
       description: "Aplicación Backend: Este es un proyecto de tienda en línea desarrollado como ejercicio académico. Permite a los usuarios registrarse, iniciar sesión, visualizar productos, realizar compras mediante un carrito y generar órdenes de compra.",
-      image: "/task-management-app.png",
+      image: "/SwaggerApi.png",
         technologies: ["TypeScript", "Javascript"],
       github: "https://github.com/ASatobaTorres/Proyecto-E-commerce-Back",
       demo: "https://github.com/ASatobaTorres/Proyecto-E-commerce-Back",
     },
     {
       title: "Full-Stack-Henry",
-      description: "App full stack para reservar turnos en cancha sintética. Permite ver disponibilidad, agendar, evitar solapamientos y gestionar usuarios. Hecha con React, Node.js, Express y MongoDB. Funciona en local.",
-      image: "/analytics-dashboard.png",
+      description: "App full stack para reservar turnos en cancha sintética llamada futplay. Permite ver disponibilidad, agendar, evitar solapamientos y gestionar usuarios. Hecha con React, Node.js, Express y MongoDB. Funciona en local.",
+      image: "/futplay.png",
       technologies: ["TypeScript 40.5%","JavaScript 39.5%", "CSS 19.4%", "HTML 0.6%"],
       github: "https://github.com/ASatobaTorres/Full-Stack-Henry",
       demo: "https://github.com/ASatobaTorres/Full-Stack-Henry",
