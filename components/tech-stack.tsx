@@ -1,4 +1,4 @@
-import Link from "next/link" // Asegúrate de tener esto importado
+import Link from "next/link" 
 import { Badge } from "@/components/ui/badge"
 
 export default function TechStack() {
@@ -18,13 +18,29 @@ export default function TechStack() {
     { name: "GitHub", category: "tools" },
   ]
 
+  const docsLinks: Record<string, string> = {
+      typescript: "https://www.typescriptlang.org/docs/",
+      html: "https://developer.mozilla.org/docs/Web/HTML",
+      react: "https://react.dev",
+      redux: "https://redux.js.org/",
+      "redux-toolkit": "https://redux-toolkit.js.org/",
+      "material-ui": "https://mui.com/material-ui/getting-started/overview/",
+      express: "https://expressjs.com/en/guide/routing.html",
+      mongodb: "https://www.mongodb.com/docs/",
+      postgresql: "https://www.postgresql.org/docs/",
+      authentication: "https://auth0.com/docs",
+      testing: "https://jestjs.io/docs/getting-started",
+      scrum: "https://scrumguides.org/scrum-guide.html",
+      github: "https://docs.github.com/en",
+   }
+
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
       language: "bg-primary/10 text-primary border-primary/20",
       frontend: "bg-accent/10 text-accent border-accent/20",
       backend: "bg-chart-3/10 text-chart-3 border-chart-3/20",
       database: "bg-chart-4/10 text-chart-4 border-chart-4/20",
-      security: "bg-chart-5/10 text-chart-5 border-chart-5/20",
+      security: "bg-chart-4/10 text-chart-4 border-chart-4/20",
       quality: "bg-chart-2/10 text-chart-2 border-chart-2/20",
       methodology: "bg-primary/10 text-primary border-primary/20",
       tools: "bg-accent/10 text-accent border-accent/20",
@@ -47,7 +63,9 @@ export default function TechStack() {
 
           <Link
             key={index}
-            href={`/projects/${tech.name.toLowerCase().replace(/\s+/g, "-")}`}
+            href={docsLinks[tech.name.toLowerCase().replace(/\s+/g, "-")] || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block"
           >
             <Badge
