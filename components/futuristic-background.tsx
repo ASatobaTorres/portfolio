@@ -22,7 +22,7 @@ export default function FuturisticBackground() {
 
     const animate = () => {
       // ctx.fillStyle = "#839d9a"
-      ctx.fillStyle = "#011531ff"
+      ctx.fillStyle = "rgb(0, 2, 17)"
       ctx.fillRect(0, 0, canvas.width, canvas.height)
       requestAnimationFrame(animate)
     }

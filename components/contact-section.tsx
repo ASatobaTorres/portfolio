@@ -4,7 +4,7 @@ import { Mail, MessageSquare, Download } from "lucide-react"
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 px-4 bg-secondary/30">
+    <section id="contact" className="py-20 px-4 bg-secondary/10">
       <div className="container max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Trabajemos Juntos</h2>
@@ -58,7 +58,7 @@ export default function ContactSection() {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/Andrés Satoba – CV – Backend Developer.pdf" download>
+            <a href="/Andrés Satoba - CV - Backend Developer.pdf" download>
               <Download className="w-4 h-4 mr-2" />
               Descargar CV
             </a>

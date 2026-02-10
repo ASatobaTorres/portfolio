@@ -8,7 +8,7 @@ export default function HeroSection() {
     title: "Full Stack Developer",
     description:
       "Desarrollador apasionado por crear experiencias web excepcionales. Especializado en construir aplicaciones escalables y de alto rendimiento con las últimas tecnologías.",
-    image: "/professional-development.jpg",
+    image: "/Development.png",
     github: "https://github.com/ASatobaTorres",
     linkedin: "https://www.linkedin.com/in/andres-satoba-fullstack",
     email: "andressatoba0@gmail.com",
